@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TitilliumWeb-ExtraLight";
+    src: url(../fonts/KdamThmorPro-Regular.ttf);
+}
+
+body {
+    animation-name: Opacidad;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    font-family: "TitilliumWeb-ExtraLight";
+    background-color: black;
+    background: url(../images/Fondo\ 1.jpg) fixed center;
+    background-image: url(../images/Fondo\ 1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section h3 {
+    color: rgb(225, 225, 225);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+
+@keyframes Opacidad {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+
+
+
+/* MENU */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aldo1 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#aldo2 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.nav-links a {
+    color: rgb(225, 225, 225);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-links a:hover {
+    color: rgb(26, 88, 7);
+    transition: 1s;
+}
+
+.nav-links a::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: rgba(250, 204, 0, 0.589);
+    margin: auto;
+    display: block;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+    transition: width 0.5s linear;
+}
+
+
+
+
+/*INICIO*/
+main h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+main h3 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/*NOTICIAS*/
+h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+main section {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section div {
+    background-color: rgb(11, 79, 11);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(207, 172, 68);
+}
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    footer {
+        margin: 10vh 15vh;
+    }
+    footer section h3{
+        font-size: 16px;
+    }
+    /* MENU */
+    nav {
+        margin: 5vh 10vh;
+    }
+    nav section {
+        width: 30%;
+    }
+    .nav-links {
+        width: 45%;
+    }
+    #escudo {
+        width: 100px;
+    }
+    #aldo1 {
+        font-size: 17px;
+    }
+    #aldo2 {
+        font-size: 45px;
+    }
+    .nav-links a {
+        font-size: 16px;
+    }
+    /*INICIO*/
+    main {
+        margin-top: 15vh;
+    }
+    main h1{
+        margin: 2vh 15vh 2vh 15vh;
+        font-size: 55px;
+        width: 30%;
+    }
+    main h3{
+        margin: 2vh 15vh 2vh 15vh;
+        font-size: 20px;
+    }
+    /*NOTICIAS*/
+    h2 {
+        margin: 55vh 15vh 5vh 15vh;
+        font-size: 50px;
+    }
+    main section {
+        margin: 5vh 15vh;
+    }
+    #once {
+        padding: 5px;
+    }
+    #once img {
+        height: 47vh;
+    }
+    #aldoboca {
+        padding: 5px 5px 0px 5px;
+    }
+    #aldoboca img {
+        height: 47vh;
+    }
+    #titan {
+        padding: 5px 5px 0px 5px;
+    }
+    #titan img {
+        height: 47vh;
+    }
+    #homekit {
+        padding: 5px 5px 0px 5px;
+    }
+    #homekit img {
+        height: 47vh;
+    }
+    #huracan {
+        padding: 5px 5px 0px 5px;
+    }
+    #huracan img {
+        height: 47vh;
+    }
+}
