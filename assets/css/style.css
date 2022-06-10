@@ -28,7 +28,7 @@ footer section {
     align-items: center;
 }
 
-footer section h3 {
+footer section h2 {
     color: rgb(225, 225, 225);
     text-transform: uppercase;
     font-weight: bold;
@@ -60,7 +60,7 @@ nav {
 
 nav section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -72,6 +72,7 @@ nav section div {
 .nav-links {
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 #aldo1 {
@@ -126,7 +127,7 @@ main h1 {
     letter-spacing: 2px;
 }
 
-main h3 {
+main h2 {
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
@@ -137,7 +138,7 @@ main h3 {
 
 
 /*NOTICIAS*/
-h2 {
+h3 {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -170,12 +171,12 @@ main section div {
     footer {
         margin: 10vh 15vh;
     }
-    footer section h3{
+    footer section h2{
         font-size: 16px;
     }
     /* MENU */
     nav {
-        margin: 5vh 10vh;
+        margin: 5vh 15vh;
     }
     nav section {
         width: 30%;
@@ -200,16 +201,16 @@ main section div {
         margin-top: 15vh;
     }
     main h1{
-        margin: 2vh 15vh 2vh 15vh;
+        margin: 2vh 15vh;
         font-size: 55px;
         width: 30%;
     }
-    main h3{
-        margin: 2vh 15vh 2vh 15vh;
+    main h2{
+        margin: 2vh 15vh;
         font-size: 20px;
     }
     /*NOTICIAS*/
-    h2 {
+    h3 {
         margin: 55vh 15vh 5vh 15vh;
         font-size: 50px;
     }
