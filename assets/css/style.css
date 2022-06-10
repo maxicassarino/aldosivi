@@ -15,11 +15,6 @@ body {
     animation-duration: 3s;
     font-family: "TitilliumWeb-ExtraLight";
     background-color: black;
-    background: url(../images/Fondo\ 1.jpg) fixed center;
-    background-image: url(../images/Fondo\ 1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 footer section {
@@ -34,8 +29,6 @@ footer section h2 {
     font-weight: bold;
     letter-spacing: 5px;
 }
-
-
 
 @keyframes Opacidad {
     from {
@@ -120,6 +113,7 @@ nav section div {
 
 
 
+
 /*INICIO*/
 main h1 {
     color: white;
@@ -150,11 +144,24 @@ main section {
     justify-content: space-between;
 }
 
-main section div {
-    background-color: rgb(11, 79, 11);
+.carta {
+    background-color: rgb(225, 225, 225);
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(207, 172, 68);
+    border-color: rgb(225, 225, 225);
+}
+
+.carta img{
+    border-radius: 5px;
+}
+
+h4{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h6{
+    letter-spacing: 1px;
 }
 
 
@@ -176,7 +183,7 @@ main section div {
     }
     /* MENU */
     nav {
-        margin: 5vh 15vh;
+        margin: 5vh 15vh 0vh 15vh;
     }
     nav section {
         width: 30%;
@@ -194,57 +201,33 @@ main section div {
         font-size: 45px;
     }
     .nav-links a {
-        font-size: 16px;
+        font-size: 13px;
     }
     /*INICIO*/
-    main {
-        margin-top: 15vh;
-    }
-    main h1{
-        margin: 2vh 15vh;
+    .tituloCarousel{
+        margin: 0vh 15vh;
+        position: absolute;
+        top: 15%;
+        left: 1%;
         font-size: 55px;
         width: 30%;
     }
-    main h2{
-        margin: 2vh 15vh;
+    .subtituloCarousel {
+        margin: 0vh 15vh;
+        position: absolute;
+        top: 40%;
+        left: 1%;
         font-size: 20px;
     }
     /*NOTICIAS*/
     h3 {
-        margin: 55vh 15vh 5vh 15vh;
+        margin: 10vh 15vh;
         font-size: 50px;
     }
     main section {
-        margin: 5vh 15vh;
+        margin: 5vh 15vh 15vh 15vh;
     }
-    #once {
-        padding: 5px;
-    }
-    #once img {
-        height: 47vh;
-    }
-    #aldoboca {
-        padding: 5px 5px 0px 5px;
-    }
-    #aldoboca img {
-        height: 47vh;
-    }
-    #titan {
-        padding: 5px 5px 0px 5px;
-    }
-    #titan img {
-        height: 47vh;
-    }
-    #homekit {
-        padding: 5px 5px 0px 5px;
-    }
-    #homekit img {
-        height: 47vh;
-    }
-    #huracan {
-        padding: 5px 5px 0px 5px;
-    }
-    #huracan img {
-        height: 47vh;
+    h4 {
+        margin: 0vh 0vh 1vh 0vh;
     }
 }

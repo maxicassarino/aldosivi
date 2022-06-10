@@ -24,31 +24,122 @@
             <li><a href="">El Club</a></li>
             <li><a href="">Fútbol Profesional</a></li>
             <li><a href="">Socios</a></li>
+            <li><a href="">Tienda</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Bienvenidos al Sitio Oficial</h1>
-        <h2>#VamosTiburón </h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/carrousel1.jpg" class="d-block w-100" alt="...">
+                    <h1 class="tituloCarousel">Bienvenidos al Sitio Oficial</h1> 
+                    <h2 class="subtituloCarousel">#VamosTiburón</h2>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fundado el 29 de Marzo de 1913</h5>
+                        <p>Mar del Plata, Argentina</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel2.jpg" class="d-block w-100" alt="...">
+                    <h1 class="tituloCarousel">Hay un nuevo Tiburón</h1> 
+                    <h2 class="subtituloCarousel">HOME KIT 2022</h2>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Empieza la Temporada</h5>
+                        <p>Liga Profesional de Futbol 2022</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel3.jpg" class="d-block w-100" alt="...">
+                    <h1 class="tituloCarousel">Sumate a esta Pasión</h1> 
+                    <h2 class="subtituloCarousel">Hacete SOCIO!</h2>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Seguí a tu corazón</h5>
+                        <p>Cuotas Sociales 2022</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <h3>Noticias</h3>
         <section>
-            <div id="once">
-                <img src="assets/images/Once.jpg" alt="Once">
+            <div class="card carta" style="width: 30rem;">
+                <img src="assets/images/homekit.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">Home Kit 2022</h4>
+                    <h6 class="card-text">Kappa presenta nuestra nueva indumentaria de cara a la Liga Profesional de Futbol 2022.</h6>
+                </div>
             </div>
-            <div id="aldoboca">
-                <img src="assets/images/aldoboca.jpg" alt="aldoboca">
+            <div class="card carta" style="width: 20rem;">
+                <img src="assets/images/aldoboca.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">#JuegaELTiburón</h4>
+                    <h6 class="card-text">Por la Fecha 20, Aldosivi recibe a Boca en el Estadio Jose María Minella.</h6>
+                </div>
             </div>
-            <div id="titan">
-                <img src="assets/images/titan.jpg" alt="titan">
+            <div class="card carta" style="width: 20rem;">
+                <img src="assets/images/Once.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">Estos son los 11</h4>
+                    <h6 class="card-text">El Once Inicial de Martín Palermo para enfrentar a Boca Juniors en Casa.</h6>
+                </div>
             </div>
         </section>
         <section>
-            <div id="homekit">
-                <img src="assets/images/homekit.jpg" alt="homekit">
+            <div class="card carta" style="width: 27.5rem;">
+                <img src="assets/images/venta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">Veni a la cancha!</h4>
+                    <h6 class="card-text">Ya se encuentran a la venta las entradas para el próximo partido.</h6>
+                </div>
             </div>
-            <div id="huracan">
-                <img src="assets/images/huracan.jpeg" alt="huracan">
+            <div class="card carta" style="width: 18.5rem;">
+                <img src="assets/images/titan.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">Comunicado Oficial</h4>
+                    <h6 class="card-text">Martín Palermo anunció que dejará de ser el Director Técnico del Tiburón.</h6>
+                </div>
+            </div>
+            <div class="card carta" style="width: 30rem;">
+                <img src="assets/images/huracan.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text">Ganó Aldosivi!</h4>
+                    <h6 class="card-text">El Tiburón le ganó 1 a 0 a Huracán en el Ducó. Martín Cauteruccio marcó el gol del triunfo.</h6>
+                </div>
             </div>
         </section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/Plantel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Plantel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Plantel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
     <footer>
         <section>
